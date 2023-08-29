@@ -2,7 +2,7 @@
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
 // Carrega o arquivo de áudio
-const audioFile = './imgs/SnapInsta.io - SAINT MOTEL - Slow Dance (Official Audio) (320 kbps) (mp3cut.net).mp3';
+const audioFile = 'SnapInsta.io - SAINT MOTEL - Slow Dance (Official Audio) (320 kbps) (mp3cut.net).mp3';
 
 // Cria um elemento de áudio usando o contexto de áudio
 const audioElement = new Audio();
